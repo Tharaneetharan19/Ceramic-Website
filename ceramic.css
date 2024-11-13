@@ -1,0 +1,226 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo img{
+    width: 70%;
+}
+
+.sectionhead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.con-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.con-link{
+    list-style: none;
+}
+
+.con{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.con-end{
+    display: flex;
+    gap: 20px;
+}
+
+.con-end button{
+    border-radius: 6px;
+    padding: 10px;
+    background-color: green;
+    color: black;
+}
+
+#logo{
+    height: 50%;
+}
+
+#nav-font{
+    font-size: 20px;
+    display: flex;
+    gap: 1rem;
+}
+
+.Herosection{
+    height: 800px;
+    background: url(/Images/Heroimg.png) no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    position: relative;
+    padding: 150px;
+    overflow: hidden;
+}
+
+.hero-content h1{
+    font-size: 90px;
+}
+
+#button{
+    padding: 10px 20px;
+    background-color: #8b3e3e;
+    color: #fff;
+    border: none;
+    font-size: 10px;
+    border-radius: 5px;
+}
+
+.bestsellers h2 {
+    text-align: center;
+    padding: 20px;
+    height: 100px;
+}
+
+.title {
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.bstcontent {
+    display: flex;
+    gap: 10px;
+    justify-content:left;
+    padding: 40px;
+}
+
+.bstcontent1 {
+    width: 80%;
+
+}
+
+.bstcontent1 p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.bstcontent2 {
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.bstcontent2 img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.bstcontent2:hover img {
+    transform: scale(1.1);
+}
+
+#bstimg1{
+    height: 360px;
+}
+
+.collection {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    background-color: #e3e3e3;
+}
+
+.ccontent {
+    flex: 1;
+}
+
+.ccontent h2 {
+    font-size: 50px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.ccontent p {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.more-button:hover {
+    background-color: #732e2e;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+    grid-column: 1;
+    grid-column: 2;
+}
+
+
+.ctimg {
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.ctimg img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.workshops{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+    background-color: #e3e3e3;
+    border: 20px;
+}
+
+.workshops img{
+    width: 100%;
+    height: auto;
+}
+
+.employee h2{
+    text-align: center;
+    align-items: center;
+}
+
+.team {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+    height: 600px;
+    text-align: center;
+}
+
+.card1 {
+    background-color: white;
+    margin: 20px;
+    width: 300px;
+    border: none;
+}
+
+.card1 img {
+    width: 100%;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content p {
+    font-weight: 800;
+    padding: 10px;
+}
